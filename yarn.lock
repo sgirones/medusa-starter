@@ -3600,6 +3600,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mikro-orm/core@npm:6.4.0":
+  version: 6.4.0
+  resolution: "@mikro-orm/core@npm:6.4.0"
+  dependencies:
+    dataloader: "npm:2.2.2"
+    dotenv: "npm:16.4.5"
+    esprima: "npm:4.0.1"
+    fs-extra: "npm:11.2.0"
+    globby: "npm:11.1.0"
+    mikro-orm: "npm:6.4.0"
+    reflect-metadata: "npm:0.2.2"
+  checksum: 10c0/85e6771b4618f859506e04a6be36240d472310691a976f1d1332238e284ad3ca00ea95535553442f8aa2cb17dffb73f40e4d55ff5d7c739eae2148b37cb0c863
+  languageName: node
+  linkType: hard
+
 "@mikro-orm/knex@npm:5.9.7":
   version: 5.9.7
   resolution: "@mikro-orm/knex@npm:5.9.7"
@@ -9265,6 +9280,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dataloader@npm:2.2.2":
+  version: 2.2.2
+  resolution: "dataloader@npm:2.2.2"
+  checksum: 10c0/125ec69f821478cf7c6b4360095db6cab939fe57876a0d2060c428091a8deee7152345189923b71a6afa694aaec463779f34b585317164016fd6f54f52cd94ba
+  languageName: node
+  linkType: hard
+
 "date-fns@npm:^3.6.0":
   version: 3.6.0
   resolution: "date-fns@npm:3.6.0"
@@ -9500,7 +9522,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^16.4.4, dotenv@npm:^16.4.5":
+"dotenv@npm:16.4.5, dotenv@npm:^16.4.4, dotenv@npm:^16.4.5":
   version: 16.4.5
   resolution: "dotenv@npm:16.4.5"
   checksum: 10c0/48d92870076832af0418b13acd6e5a5a3e83bb00df690d9812e94b24aff62b88ade955ac99a05501305b8dc8f1b0ee7638b18493deb6fe93d680e5220936292f
@@ -9756,7 +9778,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esprima@npm:^4.0.0, esprima@npm:~4.0.0":
+"esprima@npm:4.0.1, esprima@npm:^4.0.0, esprima@npm:~4.0.0":
   version: 4.0.1
   resolution: "esprima@npm:4.0.1"
   bin:
@@ -10161,6 +10183,17 @@ __metadata:
     jsonfile: "npm:^6.0.1"
     universalify: "npm:^2.0.0"
   checksum: 10c0/a2480243d7dcfa7d723c5f5b24cf4eba02a6ccece208f1524a2fbde1c629492cfb9a59e4b6d04faff6fbdf71db9fdc8ef7f396417a02884195a625f5d8dc9427
+  languageName: node
+  linkType: hard
+
+"fs-extra@npm:11.2.0":
+  version: 11.2.0
+  resolution: "fs-extra@npm:11.2.0"
+  dependencies:
+    graceful-fs: "npm:^4.2.0"
+    jsonfile: "npm:^6.0.1"
+    universalify: "npm:^2.0.0"
+  checksum: 10c0/d77a9a9efe60532d2e790e938c81a02c1b24904ef7a3efb3990b835514465ba720e99a6ea56fd5e2db53b4695319b644d76d5a0e9988a2beef80aa7b1da63398
   languageName: node
   linkType: hard
 
@@ -12072,7 +12105,7 @@ __metadata:
     "@medusajs/medusa": "npm:latest"
     "@medusajs/test-utils": "npm:latest"
     "@mikro-orm/cli": "npm:5.9.7"
-    "@mikro-orm/core": "npm:5.9.7"
+    "@mikro-orm/core": "npm:6.4.0"
     "@mikro-orm/knex": "npm:5.9.7"
     "@mikro-orm/migrations": "npm:5.9.7"
     "@mikro-orm/postgresql": "npm:5.9.7"
@@ -12136,6 +12169,13 @@ __metadata:
   version: 5.9.7
   resolution: "mikro-orm@npm:5.9.7"
   checksum: 10c0/01eb2b71e5f830c064749779d30ed1772e28420cfedeafbbbce8599714eae308af467014001e0404d7ba43de9f1f979a05fd6b267a89c8f7e1e8ec6013fb5120
+  languageName: node
+  linkType: hard
+
+"mikro-orm@npm:6.4.0":
+  version: 6.4.0
+  resolution: "mikro-orm@npm:6.4.0"
+  checksum: 10c0/b3f27aa03bf3990e077f5947c1679596b4f8c3c88a226523bd763fce78b86c24ea315ae70b38c6aa60dd8c57f48f19de411866d979e06e149eafae56041c19ab
   languageName: node
   linkType: hard
 
@@ -13784,6 +13824,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"reflect-metadata@npm:0.2.2":
+  version: 0.2.2
+  resolution: "reflect-metadata@npm:0.2.2"
+  checksum: 10c0/1cd93a15ea291e420204955544637c264c216e7aac527470e393d54b4bb075f10a17e60d8168ec96600c7e0b9fcc0cb0bb6e91c3fbf5b0d8c9056f04e6ac1ec2
+  languageName: node
+  linkType: hard
+
 "regenerator-runtime@npm:^0.14.0":
   version: 0.14.1
   resolution: "regenerator-runtime@npm:0.14.1"
@@ -14912,7 +14959,7 @@ __metadata:
 
 "typescript@patch:typescript@npm%3A^5.6.2#optional!builtin<compat/typescript>":
   version: 5.6.3
-  resolution: "typescript@patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=74658d"
+  resolution: "typescript@patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=5adc0c"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
