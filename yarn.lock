@@ -12076,7 +12076,7 @@ __metadata:
     "@medusajs/test-utils": "npm:2.1.2"
     "@mikro-orm/cli": "npm:5.9.7"
     "@mikro-orm/core": "npm:5.9.7"
-    "@mikro-orm/knex": "npm:5.9.7"
+    "@mikro-orm/knex": "npm:6.4.3"
     "@mikro-orm/migrations": "npm:6.4.3"
     "@mikro-orm/postgresql": "npm:5.9.7"
     "@swc/core": "npm:1.5.7"
