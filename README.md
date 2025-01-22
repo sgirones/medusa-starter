@@ -1,4 +1,3 @@
-TRIGGER A NEW PREVIEW ENVIRONMENT
 <p align="center">
   <a href="https://www.medusajs.com">
   <picture>
@@ -35,7 +34,7 @@ TRIGGER A NEW PREVIEW ENVIRONMENT
 
 ## Compatibility
 
-This starter is compatible with versions >= 1.8.0 of `@medusajs/medusa`. 
+This starter is compatible with versions >= 1.8.0 of `@medusajs/medusa`.
 
 ## Getting Started
 
@@ -65,7 +64,7 @@ Join our [Discord server](https://discord.com/invite/medusajs) to meet other com
 
 ## Other channels
 
-- [GitHub Issues](https://github.com/medusajs/medusa/issues)
-- [Twitter](https://twitter.com/medusajs)
-- [LinkedIn](https://www.linkedin.com/company/medusajs)
-- [Medusa Blog](https://medusajs.com/blog/)
+-   [GitHub Issues](https://github.com/medusajs/medusa/issues)
+-   [Twitter](https://twitter.com/medusajs)
+-   [LinkedIn](https://www.linkedin.com/company/medusajs)
+-   [Medusa Blog](https://medusajs.com/blog/)
