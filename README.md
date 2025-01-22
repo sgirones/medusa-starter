@@ -1,3 +1,4 @@
+TRIGGER NEW CLOUD ENV
 <p align="center">
   <a href="https://www.medusajs.com">
   <picture>
