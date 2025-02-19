@@ -32,7 +32,7 @@
         "@mikro-orm/migrations": "6.4.3",
         "@mikro-orm/postgresql": "6.4.3",
         "awilix": "^8.0.1",
-        "create-medusa-app": "2.5.1-snapshot-20250217125035",
+        "create-medusa-app": "2.5.1-snapshot-20250217144031",
         "medusa-dev-cli": "2.5.1-snapshot-20250217125035",
         "pg": "^8.13.0"
     },
