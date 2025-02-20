@@ -2985,6 +2985,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@medusajs/telemetry@npm:2.5.1-snapshot-20250217144031":
+  version: 2.5.1-snapshot-20250217144031
+  resolution: "@medusajs/telemetry@npm:2.5.1-snapshot-20250217144031"
+  dependencies:
+    "@babel/runtime": "npm:^7.22.10"
+    axios: "npm:^0.21.4"
+    axios-retry: "npm:^3.1.9"
+    boxen: "npm:^5.0.1"
+    ci-info: "npm:^3.2.0"
+    configstore: "npm:5.0.1"
+    global: "npm:^4.4.0"
+    is-docker: "npm:^2.2.1"
+    remove-trailing-slash: "npm:^0.1.1"
+    uuid: "npm:^8.3.2"
+  checksum: 10c0/57cfba554ead7e0a0e3da9f42ecf60e60f23774bff17562bd7a3ab52dbae3c97400f45b2d6e10ef5a6bd9b4b328bcd54ac3b858e5f5d54657e811623ff5a438e
+  languageName: node
+  linkType: hard
+
 "@medusajs/test-utils@npm:2.5.1-snapshot-20250217125035":
   version: 2.5.1-snapshot-20250217125035
   resolution: "@medusajs/test-utils@npm:2.5.1-snapshot-20250217125035"
@@ -10186,11 +10204,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"create-medusa-app@npm:2.5.1-snapshot-20250217125035":
-  version: 2.5.1-snapshot-20250217125035
-  resolution: "create-medusa-app@npm:2.5.1-snapshot-20250217125035"
+"create-medusa-app@npm:2.5.1-snapshot-20250217144031":
+  version: 2.5.1-snapshot-20250217144031
+  resolution: "create-medusa-app@npm:2.5.1-snapshot-20250217144031"
   dependencies:
-    "@medusajs/telemetry": "npm:2.5.1-snapshot-20250217125035"
+    "@medusajs/telemetry": "npm:2.5.1-snapshot-20250217144031"
     boxen: "npm:^5"
     chalk: "npm:^5.2.0"
     commander: "npm:^10.0.1"
@@ -10208,7 +10226,7 @@ __metadata:
     winston: "npm:^3.9.0"
   bin:
     create-medusa-app: dist/index.js
-  checksum: 10c0/adc8715700586d3c7209e1295db0987ac53738e5f0c71e4f880480f8c50317a935010eec4ab8dbd0d60cf9b3b6e73b3241eb089d80a7e0be3bdbf53eccfe4b7c
+  checksum: 10c0/707ff293b7104b5fcdce01aa45a572462999e4648a5d9f5d09ebb32218f812c7fff82e9f48e61147ca1e637e6e9143500c65d27dac50f90c3bdafd26ad9558ca
   languageName: node
   linkType: hard
 
@@ -14255,7 +14273,7 @@ __metadata:
     "@types/react": "npm:^18.3.2"
     "@types/react-dom": "npm:^18.2.25"
     awilix: "npm:^8.0.1"
-    create-medusa-app: "npm:2.5.1-snapshot-20250217125035"
+    create-medusa-app: "npm:2.5.1-snapshot-20250217144031"
     jest: "npm:^29.7.0"
     medusa-dev-cli: "npm:2.5.1-snapshot-20250217125035"
     pg: "npm:^8.13.0"
