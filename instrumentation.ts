@@ -17,9 +17,8 @@ export function register() {
         url: process.env.OTLP_EXPORTER_URL,
     });
 
-    registerOtel({
+    const sdk = registerOtel({
         serviceName: 'medusajs',
-        // pass exporter
         exporter,
         instrument: {
             http: true,
@@ -27,5 +26,14 @@ export function register() {
             query: true,
             db: true,
         },
+    });
+
+    process.on('SIGTERM', () => {
+        sdk.shutdown()
+            .then(
+                () => console.log('OTEL SDK was shut down successfully'),
+                (err) => console.log('Error shutting down OTEL SDK', err)
+            )
+            .finally(() => process.exit(0));
     });
 }
