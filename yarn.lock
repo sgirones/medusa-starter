@@ -3202,16 +3202,39 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mikro-orm/migrations@npm:6.4.3":
-  version: 6.4.3
-  resolution: "@mikro-orm/migrations@npm:6.4.3"
+"@mikro-orm/knex@npm:6.4.6":
+  version: 6.4.6
+  resolution: "@mikro-orm/knex@npm:6.4.6"
   dependencies:
-    "@mikro-orm/knex": "npm:6.4.3"
-    fs-extra: "npm:11.2.0"
+    fs-extra: "npm:11.3.0"
+    knex: "npm:3.1.0"
+    sqlstring: "npm:2.3.3"
+  peerDependencies:
+    "@mikro-orm/core": ^6.0.0
+    better-sqlite3: "*"
+    libsql: "*"
+    mariadb: "*"
+  peerDependenciesMeta:
+    better-sqlite3:
+      optional: true
+    libsql:
+      optional: true
+    mariadb:
+      optional: true
+  checksum: 10c0/413e90011329271d0160137fc689bdf1f573837f6b1cfba04e91aab7d47044957aaa94961a5d80929f9a267c1a3cda0069d7436fce9d0bf603d7d9f87bdcd377
+  languageName: node
+  linkType: hard
+
+"@mikro-orm/migrations@npm:6.4.6":
+  version: 6.4.6
+  resolution: "@mikro-orm/migrations@npm:6.4.6"
+  dependencies:
+    "@mikro-orm/knex": "npm:6.4.6"
+    fs-extra: "npm:11.3.0"
     umzug: "npm:3.8.2"
   peerDependencies:
     "@mikro-orm/core": ^6.0.0
-  checksum: 10c0/04e7e2405a3d0d94213f2bf40c34988e190f8f0df5ff4565ef23c750680b198f293247418ee60c0605edfcbca119177f2e87dc01d3e6abfc15ec7c4dc976324a
+  checksum: 10c0/4989da961718948438739dbe3b2aafdf01df0a3e1186c77dd807c441d881f7e13fb7f72adedb37f4e0b61033a8dac7c4579d91597e334ef96f42315efa6a77c5
   languageName: node
   linkType: hard
 
@@ -11651,6 +11674,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fs-extra@npm:11.3.0, fs-extra@npm:~11.3.0":
+  version: 11.3.0
+  resolution: "fs-extra@npm:11.3.0"
+  dependencies:
+    graceful-fs: "npm:^4.2.0"
+    jsonfile: "npm:^6.0.1"
+    universalify: "npm:^2.0.0"
+  checksum: 10c0/5f95e996186ff45463059feb115a22fb048bdaf7e487ecee8a8646c78ed8fdca63630e3077d4c16ce677051f5e60d3355a06f3cd61f3ca43f48cc58822a44d0a
+  languageName: node
+  linkType: hard
+
 "fs-extra@npm:^10.0.0":
   version: 10.1.0
   resolution: "fs-extra@npm:10.1.0"
@@ -11682,17 +11716,6 @@ __metadata:
     jsonfile: "npm:^6.0.1"
     universalify: "npm:^2.0.0"
   checksum: 10c0/9b808bd884beff5cb940773018179a6b94a966381d005479f00adda6b44e5e3d4abf765135773d849cc27efe68c349e4a7b86acd7d3306d5932c14f3a4b17a92
-  languageName: node
-  linkType: hard
-
-"fs-extra@npm:~11.3.0":
-  version: 11.3.0
-  resolution: "fs-extra@npm:11.3.0"
-  dependencies:
-    graceful-fs: "npm:^4.2.0"
-    jsonfile: "npm:^6.0.1"
-    universalify: "npm:^2.0.0"
-  checksum: 10c0/5f95e996186ff45463059feb115a22fb048bdaf7e487ecee8a8646c78ed8fdca63630e3077d4c16ce677051f5e60d3355a06f3cd61f3ca43f48cc58822a44d0a
   languageName: node
   linkType: hard
 
@@ -14242,7 +14265,7 @@ __metadata:
     "@mikro-orm/cli": "npm:6.4.3"
     "@mikro-orm/core": "npm:6.4.3"
     "@mikro-orm/knex": "npm:6.4.3"
-    "@mikro-orm/migrations": "npm:6.4.3"
+    "@mikro-orm/migrations": "npm:6.4.6"
     "@mikro-orm/postgresql": "npm:6.4.3"
     "@opentelemetry/instrumentation-pg": "npm:^0.51.1"
     "@opentelemetry/resources": "npm:^1.30.1"
