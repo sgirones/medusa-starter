@@ -15,7 +15,9 @@ export function register() {
 
     const exporter = new OTLPTraceExporter({
         url: process.env.OTLP_EXPORTER_URL,
-        concurrencyLimit: 500,
+        concurrencyLimit: process.env.OTLP_EXPORTER_CONCURRENCY_LIMIT
+            ? parseInt(process.env.OTLP_EXPORTER_CONCURRENCY_LIMIT)
+            : 500,
     });
 
     const sdk = registerOtel({
