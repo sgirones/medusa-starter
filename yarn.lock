@@ -2985,6 +2985,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@medusajs/telemetry@npm:^2.6.0":
+  version: 2.6.0
+  resolution: "@medusajs/telemetry@npm:2.6.0"
+  dependencies:
+    "@babel/runtime": "npm:^7.22.10"
+    axios: "npm:^0.21.4"
+    axios-retry: "npm:^3.1.9"
+    boxen: "npm:^5.0.1"
+    ci-info: "npm:^3.2.0"
+    configstore: "npm:5.0.1"
+    global: "npm:^4.4.0"
+    is-docker: "npm:^2.2.1"
+    remove-trailing-slash: "npm:^0.1.1"
+    uuid: "npm:^8.3.2"
+  checksum: 10c0/005dd71ecf2f8391c0f522670fc9f355d045395ab2ebba47885424b07a57e0f7073499cc4909add35437a1b7b9c79087eccb43fe5f8089a4d290836501919674
+  languageName: node
+  linkType: hard
+
 "@medusajs/test-utils@npm:2.5.1-snapshot-20250217125035":
   version: 2.5.1-snapshot-20250217125035
   resolution: "@medusajs/test-utils@npm:2.5.1-snapshot-20250217125035"
@@ -10186,11 +10204,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"create-medusa-app@npm:2.5.1-snapshot-20250217125035":
-  version: 2.5.1-snapshot-20250217125035
-  resolution: "create-medusa-app@npm:2.5.1-snapshot-20250217125035"
+"create-medusa-app@npm:2.6.0":
+  version: 2.6.0
+  resolution: "create-medusa-app@npm:2.6.0"
   dependencies:
-    "@medusajs/telemetry": "npm:2.5.1-snapshot-20250217125035"
+    "@medusajs/telemetry": "npm:^2.6.0"
     boxen: "npm:^5"
     chalk: "npm:^5.2.0"
     commander: "npm:^10.0.1"
@@ -10208,7 +10226,7 @@ __metadata:
     winston: "npm:^3.9.0"
   bin:
     create-medusa-app: dist/index.js
-  checksum: 10c0/adc8715700586d3c7209e1295db0987ac53738e5f0c71e4f880480f8c50317a935010eec4ab8dbd0d60cf9b3b6e73b3241eb089d80a7e0be3bdbf53eccfe4b7c
+  checksum: 10c0/99be030500434cd872c9e6a9b524ca4044e325ccc8386734629765a6bb92011c457c6127457ebb20a005a3cb63d19878271c80131647eb84b017c8d8c54920a0
   languageName: node
   linkType: hard
 
@@ -14255,7 +14273,7 @@ __metadata:
     "@types/react": "npm:^18.3.2"
     "@types/react-dom": "npm:^18.2.25"
     awilix: "npm:^8.0.1"
-    create-medusa-app: "npm:2.5.1-snapshot-20250217125035"
+    create-medusa-app: "npm:2.6.0"
     jest: "npm:^29.7.0"
     medusa-dev-cli: "npm:2.5.1-snapshot-20250217125035"
     pg: "npm:^8.13.0"
