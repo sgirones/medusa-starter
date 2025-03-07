@@ -3202,6 +3202,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mikro-orm/knex@npm:6.4.9":
+  version: 6.4.9
+  resolution: "@mikro-orm/knex@npm:6.4.9"
+  dependencies:
+    fs-extra: "npm:11.3.0"
+    knex: "npm:3.1.0"
+    sqlstring: "npm:2.3.3"
+  peerDependencies:
+    "@mikro-orm/core": ^6.0.0
+    better-sqlite3: "*"
+    libsql: "*"
+    mariadb: "*"
+  peerDependenciesMeta:
+    better-sqlite3:
+      optional: true
+    libsql:
+      optional: true
+    mariadb:
+      optional: true
+  checksum: 10c0/84d49d43752665c882a66f7ede2b16b1d21fef30e93c2973602646a1e0863351af5cdecd6f4be4891fd1d30514333b43b96ba160baafbc15ea4de87cf2e4aa19
+  languageName: node
+  linkType: hard
+
 "@mikro-orm/migrations@npm:6.4.3":
   version: 6.4.3
   resolution: "@mikro-orm/migrations@npm:6.4.3"
@@ -11651,6 +11674,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fs-extra@npm:11.3.0, fs-extra@npm:~11.3.0":
+  version: 11.3.0
+  resolution: "fs-extra@npm:11.3.0"
+  dependencies:
+    graceful-fs: "npm:^4.2.0"
+    jsonfile: "npm:^6.0.1"
+    universalify: "npm:^2.0.0"
+  checksum: 10c0/5f95e996186ff45463059feb115a22fb048bdaf7e487ecee8a8646c78ed8fdca63630e3077d4c16ce677051f5e60d3355a06f3cd61f3ca43f48cc58822a44d0a
+  languageName: node
+  linkType: hard
+
 "fs-extra@npm:^10.0.0":
   version: 10.1.0
   resolution: "fs-extra@npm:10.1.0"
@@ -11682,17 +11716,6 @@ __metadata:
     jsonfile: "npm:^6.0.1"
     universalify: "npm:^2.0.0"
   checksum: 10c0/9b808bd884beff5cb940773018179a6b94a966381d005479f00adda6b44e5e3d4abf765135773d849cc27efe68c349e4a7b86acd7d3306d5932c14f3a4b17a92
-  languageName: node
-  linkType: hard
-
-"fs-extra@npm:~11.3.0":
-  version: 11.3.0
-  resolution: "fs-extra@npm:11.3.0"
-  dependencies:
-    graceful-fs: "npm:^4.2.0"
-    jsonfile: "npm:^6.0.1"
-    universalify: "npm:^2.0.0"
-  checksum: 10c0/5f95e996186ff45463059feb115a22fb048bdaf7e487ecee8a8646c78ed8fdca63630e3077d4c16ce677051f5e60d3355a06f3cd61f3ca43f48cc58822a44d0a
   languageName: node
   linkType: hard
 
@@ -14241,7 +14264,7 @@ __metadata:
     "@medusajs/test-utils": "npm:2.5.1-snapshot-20250217125035"
     "@mikro-orm/cli": "npm:6.4.3"
     "@mikro-orm/core": "npm:6.4.3"
-    "@mikro-orm/knex": "npm:6.4.3"
+    "@mikro-orm/knex": "npm:6.4.9"
     "@mikro-orm/migrations": "npm:6.4.3"
     "@mikro-orm/postgresql": "npm:6.4.3"
     "@opentelemetry/instrumentation-pg": "npm:^0.51.1"
