@@ -13,6 +13,8 @@ export function register() {
         return;
     }
 
+    throw new Error('OTLP_EXPORTER_URL is not set. Skipping instrumentation.');
+
     const exporter = new OTLPTraceExporter({
         url: process.env.OTLP_EXPORTER_URL,
         concurrencyLimit: process.env.OTLP_EXPORTER_CONCURRENCY_LIMIT
