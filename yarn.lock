@@ -3185,6 +3185,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mikro-orm/core@npm:6.5.5":
+  version: 6.5.5
+  resolution: "@mikro-orm/core@npm:6.5.5"
+  dependencies:
+    dataloader: "npm:2.2.3"
+    dotenv: "npm:17.2.2"
+    esprima: "npm:4.0.1"
+    fs-extra: "npm:11.3.2"
+    globby: "npm:11.1.0"
+    mikro-orm: "npm:6.5.5"
+    reflect-metadata: "npm:0.2.2"
+  checksum: 10c0/2ffe944b2e5f288aab10173789dbb5f96954be307d5d5f313856859c809982ecd9f521ea68e151772a880861b902713fff2637f80303b8ce7025db181c392de2
+  languageName: node
+  linkType: hard
+
 "@mikro-orm/knex@npm:6.4.3":
   version: 6.4.3
   resolution: "@mikro-orm/knex@npm:6.4.3"
@@ -10671,6 +10686,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dotenv@npm:17.2.2":
+  version: 17.2.2
+  resolution: "dotenv@npm:17.2.2"
+  checksum: 10c0/be66513504590aff6eccb14167625aed9bd42ce80547f4fe5d195860211971a7060949b57108dfaeaf90658f79e40edccd3f233f0a978bff507b5b1565ae162b
+  languageName: node
+  linkType: hard
+
 "dset@npm:^3.1.4":
   version: 3.1.4
   resolution: "dset@npm:3.1.4"
@@ -11606,6 +11628,17 @@ __metadata:
     jsonfile: "npm:^6.0.1"
     universalify: "npm:^2.0.0"
   checksum: 10c0/d77a9a9efe60532d2e790e938c81a02c1b24904ef7a3efb3990b835514465ba720e99a6ea56fd5e2db53b4695319b644d76d5a0e9988a2beef80aa7b1da63398
+  languageName: node
+  linkType: hard
+
+"fs-extra@npm:11.3.2":
+  version: 11.3.2
+  resolution: "fs-extra@npm:11.3.2"
+  dependencies:
+    graceful-fs: "npm:^4.2.0"
+    jsonfile: "npm:^6.0.1"
+    universalify: "npm:^2.0.0"
+  checksum: 10c0/f5d629e1bb646d5dedb4d8b24c5aad3deb8cc1d5438979d6f237146cd10e113b49a949ae1b54212c2fbc98e2d0995f38009a9a1d0520f0287943335e65fe919b
   languageName: node
   linkType: hard
 
@@ -14191,7 +14224,7 @@ __metadata:
     "@medusajs/medusa": "npm:2.7.1"
     "@medusajs/test-utils": "npm:2.7.1"
     "@mikro-orm/cli": "npm:6.4.3"
-    "@mikro-orm/core": "npm:6.4.3"
+    "@mikro-orm/core": "npm:6.5.5"
     "@mikro-orm/knex": "npm:6.4.3"
     "@mikro-orm/migrations": "npm:6.4.3"
     "@mikro-orm/postgresql": "npm:6.4.3"
@@ -14268,6 +14301,13 @@ __metadata:
   version: 6.4.3
   resolution: "mikro-orm@npm:6.4.3"
   checksum: 10c0/6d489b7ba8ee9e97545bf035c0d1571e5e00baba4653c24713f4f4703311461f10d467d42f230674049282add6340fc9f33f3e3034827f86d89b5d62b3cc0180
+  languageName: node
+  linkType: hard
+
+"mikro-orm@npm:6.5.5":
+  version: 6.5.5
+  resolution: "mikro-orm@npm:6.5.5"
+  checksum: 10c0/eca6afcac7deeced740c650728ec86b80a627b7631c813eb1076eef8b1618e9aff0adc82f0e7ba57f6d9685bb71058d648ecd5b52fcfe0c32fb0cc0483fded08
   languageName: node
   linkType: hard
 
