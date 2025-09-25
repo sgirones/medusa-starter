@@ -3208,16 +3208,39 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mikro-orm/migrations@npm:6.4.3":
-  version: 6.4.3
-  resolution: "@mikro-orm/migrations@npm:6.4.3"
+"@mikro-orm/knex@npm:6.5.6":
+  version: 6.5.6
+  resolution: "@mikro-orm/knex@npm:6.5.6"
   dependencies:
-    "@mikro-orm/knex": "npm:6.4.3"
-    fs-extra: "npm:11.2.0"
+    fs-extra: "npm:11.3.2"
+    knex: "npm:3.1.0"
+    sqlstring: "npm:2.3.3"
+  peerDependencies:
+    "@mikro-orm/core": ^6.0.0
+    better-sqlite3: "*"
+    libsql: "*"
+    mariadb: "*"
+  peerDependenciesMeta:
+    better-sqlite3:
+      optional: true
+    libsql:
+      optional: true
+    mariadb:
+      optional: true
+  checksum: 10c0/e3428853d96e1503213ba3ce1c5b87e62fbd817cb228a5a93c7e48e31eadb0a656cab019f1d50b4154ce0114dbe1e6453101ee5bd017e54c29e6239308d449d2
+  languageName: node
+  linkType: hard
+
+"@mikro-orm/migrations@npm:6.5.6":
+  version: 6.5.6
+  resolution: "@mikro-orm/migrations@npm:6.5.6"
+  dependencies:
+    "@mikro-orm/knex": "npm:6.5.6"
+    fs-extra: "npm:11.3.2"
     umzug: "npm:3.8.2"
   peerDependencies:
     "@mikro-orm/core": ^6.0.0
-  checksum: 10c0/04e7e2405a3d0d94213f2bf40c34988e190f8f0df5ff4565ef23c750680b198f293247418ee60c0605edfcbca119177f2e87dc01d3e6abfc15ec7c4dc976324a
+  checksum: 10c0/47154b3581a93b304e1b3b4d5bd5ba44f8c6767beaabc0c8ea5f205384e7e71b0c34fe4f021ba555a380b50af70734ea66d1be18528541a7ac513d73a1d27b7e
   languageName: node
   linkType: hard
 
@@ -11609,6 +11632,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fs-extra@npm:11.3.2":
+  version: 11.3.2
+  resolution: "fs-extra@npm:11.3.2"
+  dependencies:
+    graceful-fs: "npm:^4.2.0"
+    jsonfile: "npm:^6.0.1"
+    universalify: "npm:^2.0.0"
+  checksum: 10c0/f5d629e1bb646d5dedb4d8b24c5aad3deb8cc1d5438979d6f237146cd10e113b49a949ae1b54212c2fbc98e2d0995f38009a9a1d0520f0287943335e65fe919b
+  languageName: node
+  linkType: hard
+
 "fs-extra@npm:^10.0.0":
   version: 10.1.0
   resolution: "fs-extra@npm:10.1.0"
@@ -14193,7 +14227,7 @@ __metadata:
     "@mikro-orm/cli": "npm:6.4.3"
     "@mikro-orm/core": "npm:6.4.3"
     "@mikro-orm/knex": "npm:6.4.3"
-    "@mikro-orm/migrations": "npm:6.4.3"
+    "@mikro-orm/migrations": "npm:6.5.6"
     "@mikro-orm/postgresql": "npm:6.4.3"
     "@opentelemetry/instrumentation-pg": "npm:^0.51.1"
     "@opentelemetry/resources": "npm:^1.30.1"
